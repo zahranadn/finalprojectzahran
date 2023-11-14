@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="frontend/styles/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAVIGATION BAR -->
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+            <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
+                <a class="navbar-brand" href="index.html">
+                    <img src="frontend/images/logo1ex.jpg" alt="" />
+                </a>
+            </div>
+            <ul class="navbar-nav mr-auto d-none d-lg-block">
+                <li>
+                    <span class="text-muted">| &nbsp; Jelajahi Keindahan Gunung Indonesia</span
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+    <!-- CHECKOUT -->
+
+    <main>
+        <section class="section-details-header"></section>
+        <section class="section-details-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col p-0">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item" aria-current="page">
+                                    Ticket Booking
+                                </li>
+                                <li class="breadcrumb-item" aria-current="page">
+                                    Details
+                                </li>
+                                <li class="breadcrumb-item active" aria-current="page">
+                                    Checkout
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 pl-lg-0">
+                        <div class="card card-details">
+                            <h1>Gunung Prau</h1>
+                            <p>
+                                Jawa Tengah
+                            </p>
+                            <div class="list-peserta">
+                                <table class="table table-responsive-sm text-center">
+                                    <thead>
+                                      <tr>
+                                        <td scope="col">Nama</td>
+                                        <td scope="col">Tanggal Lahir</td>
+                                        <td scope="col">Jenis Kelamin</td>
+                                        <td scope="col">Asal Daerah</td>
+                                        <td scope="col">Alamat</td>
+                                        <td scope="col">No HP</td>
+                                        <td scope="col">No Identitas</td>
+                                        <td scope="col">KTP</td>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td class="align-middle">Zahran Adnan</td>
+                                        <td class="align-middle">19-08</td>
+                                        <td class="align-middle">Laki Laki</td>
+                                        <td class="align-middle">Bogor</td>
+                                        <td class="align-middle">Jln abcd</td>
+                                        <td class="align-middle">123456789</td>
+                                        <td class="align-middle">Y</td>
+                                        <td>
+                                            <img
+                                              src="frontend/images/logo1ex.jpg"
+                                              alt=""
+                                              height="60"
+                                            />
+                                        </td>
+                                        <td class="align-middle">
+                                            <a href="#">
+                                              <img src="frontend/images/remove.png" alt="" />
+                                            </a>
+                                        </td>  
+                                      </tr>
+
+                                      <tr>
+                                        <td class="align-middle">Adnan Z</td>
+                                        <td class="align-middle">19-08</td>
+                                        <td class="align-middle">Laki Laki</td>
+                                        <td class="align-middle">Bogor</td>
+                                        <td class="align-middle">Jln abcd</td>
+                                        <td class="align-middle">123456789</td>
+                                        <td class="align-middle">Y</td>
+                                        <td>
+                                            <img
+                                              src="frontend/images/logo1ex.jpg"
+                                              alt=""
+                                              height="60"
+                                            />
+                                        </td>
+                                        <td class="align-middle">
+                                            <a href="#">
+                                              <img src="frontend/images/remove.png" alt="" />
+                                            </a>
+                                        </td>  
+                                      </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="member mt-3">
+                                <h2>Tambah Peserta</h2>
+                                <form class="form-inline pt-4">
+                                  <label class="sr-only" for="inputUsername">Name</label>
+                                  <input
+                                    type="text"
+                                    class="form-control mb-2 mr-sm-2"
+                                    id="inputUsername"
+                                    placeholder="Username"
+                                  />
+
+                                  <label class="sr-only" for="doePassport"
+                                    >Tanggal Lahir</label
+                                  >
+                                  <div class="input-group mb-2 mr-sm-2">
+                                    <input
+                                      type="text"
+                                      class="form-control datepicker"
+                                      id="doePassport"
+                                      placeholder="Tanggal Lahir"
+                                    />
+                                  </div>
+
+                    
+                                  <label
+                                    class="sr-only"
+                                    class="mr-2"
+                                    for="inlineFormCustomSelectPref"
+                                    >Preference</label
+                                  >
+                                  <select
+                                    class="custom-select mb-2 mr-sm-2"
+                                    id="inlineFormCustomSelectPref"
+                                  >
+                                    <option selected value="">Jenis Kelamin</option>
+                                    <option value="2">Laki-Laki</option>
+                                    <option value="3">Perempuan</option>
+                                  </select>
+
+                                  <label class="sr-only" for="inputUsername">Asal Daerah</label>
+                                  <input
+                                    type="text"
+                                    class="form-control mb-2 mr-sm-2"
+                                    id="inputAsalDaerah"
+                                    placeholder="Asal Daerah"
+                                  />
+
+                                  <label class="sr-only" for="inputUsername">Alamat</label>
+                                  <input
+                                    type="text"
+                                    class="form-control mb-2 mr-sm-2"
+                                    id="inputAlamat"
+                                    placeholder="Alamat"
+                                  />
+
+                                  <label class="sr-only" for="inputUsername">NO HP</label>
+                                  <input
+                                    type="text"
+                                    class="form-control mb-2 mr-sm-2"
+                                    id="inputNoHP"
+                                    placeholder="NO HP"
+                                  />
+
+                                  <input type="file" class="form-control" id="inputGroupFile02">
+                                  <label class="input-group-text" for="inputGroupFile02">Upload</label>
+
+                                  <button type="submit" class="btn btn-add-now mb-2 px-4">
+                                    Tambah Peserta
+                                  </button>
+                                </form>
+                                <h3 class="mt-4 mb-0">*Note</h3>
+                                <p class="disclaimer mb-0">
+                                  Nama Pertama adalah Ketua Kelompok Dalam Pendakian
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pl-lg-0 pt-4">
+                        <div class="card card-details pt-0">
+                            <h2>Checkout Information</h2>
+                            <table class="trip-informations">
+                              <tr>
+                                <th width="50%">Anggota</th>
+                                <td width="50%" class="text-right">2 Orang</td>
+                              </tr>
+                              <tr>
+                                <th width="50%">Total Pembayaran</th>
+                                <td width="50%" class="text-right">Rp 25.000 / person</td>
+                              </tr>
+                              <tr>
+                                <th width="50%">Sub Total</th>
+                                <td width="50%" class="text-right">Rp 50.000</td>
+                              </tr>
+                              <tr>
+                                  <th width="50%">Total (+Unique)>
+
+                                  </th>
+                                  <td width="50%" class="text-right text-total">
+                                  </td>
+                              </tr>
+                            </table>
+                            <hr />
+                            <h2>Payment Instructions</h2>
+                            <p class="payment-instructions pt-0">
+                            Please complete your payment before to continue the wonderful
+                            trip
+                            </p>
+                            <div class="bank">
+                                <div class="bank-item pb-3">
+                                    <img
+                                        src="frontend/images/ic_bank.png"
+                                        alt=""
+                                        class="bank-image"
+                                    />
+                                    <div class="description">
+                                    <h3>TNGP Gunung Prau</h3>
+                                    <p>
+                                        0881 8829 8800
+                                        <br />
+                                        Bank Central Asia
+                                    </p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="bank-item pb-3">
+                                    <img
+                                        src="frontend/images/ic_bank.png"
+                                        alt=""
+                                        class="bank-image"
+                                    />
+                                    <div class="description">
+                                    <h3>TNGP Gunung Prau</h3>
+                                    <p>
+                                        0881 8829 8800
+                                        <br />
+                                        Bank Central Asia
+                                    </p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pesan-container">
+                            <a href="#" class="btn btn-block btn-pesan-tiket mt-4 py-2"
+                              >Lakukan Pembayaran</a
+                            >
+                        </div>
+                        <div class="text-center mt-3">
+                            <a href="#" class="text-muted" style="font-weight: bold;">Cancel Booking</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="section-footer mt-3 mb-3">
+        <div class="container pt-4 pb-4">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12 col-lg-3  ">
+                                    <h5>Hubungi Saya </h5>
+                                    <ul class="list-unstyled">
+                                        <li>Bogor</li>
+                                        <li>Indonesia</li>
+                                        <li>08xx- xxxx- xxx</li>
+                                        <li>zahranxxx@gmail.com</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row border-top justify-content-center align-items-center pt-4">
+                <div class="col-auto text-black-100 font-weight-bold">
+                    2023 Website Pemesanan Tiket Gunung Online • All rights reserved • Zahran Adnan Agustian
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="frontend/libraries/retina/retina.js"></script>
+    <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>

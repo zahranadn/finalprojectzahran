@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+/* button {
+    padding: 8px 16px;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background: #e69100;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+} */
+
+.allertsuccess {
+    background: #31f181;
+    padding: 30px 40px;
+    min-width: 450px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 4px;
+    border-left: 10px solid #3eff4e;
+    overflow: hidden;
+    opacity: 100;
+    font-weight: 800;
+    color: black;
+    pointer-events: none;
+}
+
+.allertsuccess.show {
+    animation: show_slide 1s ease forwards;
+}
+
+@keyframes show_slide {
+    0% {
+        transform: translateX(100%);
+    }
+    40% {
+        transform: translateX(-10%);
+    }
+    80% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-10px);
+    }
+}
+
+.allertsuccess.hide {
+    display: none;
+}
+
+.allertsuccess .fa-check-circle {
+    position: absolute;
+    left: 18px;
+    top: 48%;
+    transform: translateY(-50%);
+    color: rgb(4, 0, 255);
+    font-size: 40px;
+}
+
+.allertsuccess .close-btn {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 18px;
+    cursor: pointer;
+}
+
+.allertsuccess .msg {
+    padding: 0 20px;
+    font-size: 18px;
+    color: #000000;
+}
+
+.allertsuccess .fa-times {
+    color: #000000;
+    font-size: 25px;
+}
+
+.alert.showAlert {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.alert.hide {
+    animation: hide_slide 1s ease forwards;
+}
+
+.alert .close-btn .fas {
+    color: #ce8500;
+    font-size: 22px;
+    line-height: 40px;
+}

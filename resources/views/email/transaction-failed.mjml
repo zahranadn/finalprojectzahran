@@ -1,0 +1,23 @@
+<mjml>
+<mj-body background-color="#ffffff" font-size="13px">
+    <mj-section background-color="#ffffff" padding-bottom="0px" padding-top="0">
+      <mj-column vertical-align="top" width="100%">
+        <mj-image src="http://go.mailjet.com/tplimg/mtrq/b/ox8s/mg1rw.png" alt="" align="center" border="none" width="600px" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="0"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#009FE3" vertical-align="top" padding-bottom="0px" padding-top="0">
+      <mj-column vertical-align="top" width="100%">
+        <mj-text align="left" color="#ffffff" font-size="45px" font-weight="bold" font-family="open Sans Helvetica, Arial, sans-serif" padding-left="25px" padding-right="25px" padding-bottom="30px" padding-top="50px">Transaksi Anda Gagal !!</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#009fe3" padding-bottom="20px" padding-top="20px">
+      <mj-column vertical-align="middle" width="100%">
+        <mj-text align="left" color="#ffffff" font-size="22px" font-family="open Sans Helvetica, Arial, sans-serif" padding-left="25px" padding-right="25px"><span style="color:#00000">Kepada: [[FirstName]]</span><br /><br /> Dengan email ini, Kami memberitahukan bahwa transaksi anda denguan tujuan
+        <br></br><span style="color:yellow">Gunung :{{$data->destinasi_detail->namagunung}} </span>
+        <br><span style="color:yellow">Tanggal :{{$data->jadwal_pendakian->tanggal_pendakian}} </span>
+        <br></br> gagal dikarenakan REJECT atau tidak disetujui oleh admin, hal ini bisa dikarenakan kelengkapan data yang tidak anda masukkan... <br></br><span style="color:red">Anda dapat mencoba ulang untuk memesan tiket Simaksi</span></mj-text>
+        
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

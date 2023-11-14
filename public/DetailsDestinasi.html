@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="frontend/styles/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAVIGATION BAR -->
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+            <a class="navbar-brand font-weight-bold" href="#"> Booking Ticket Gunung
+                <img src="frontend/images/logo1ex.jpg" alt="" />
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navigationbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navigationbar">
+                <ul class="navbar-nav ml-auto mr-3">
+                    <li class="nav-item mx-md-2">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a class="nav-link" href="PesanTiket.html">Ticket Booking</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a class="nav-link" href="#">Peta Conture</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Lainnya
+              </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Aturan</a>
+                            <a class="dropdown-item" href="#">Seputar Gunung</a>
+                            <a class="dropdown-item" href="#">Link 3</a>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- Mobile button -->
+                <form class="form-inline d-sm-block d-md-none">
+                    <button class="btn btn-login my-2 my-sm-0">
+              Log In
+            </button>
+                </form>
+                <!-- Desktop Button -->
+                <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+              Log In
+            </button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <!-- DETAIL DESTINASI -->
+
+    <main>
+        <section class="section-details-header"></section>
+        <section class="section-details-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col p-0">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item" aria-current="page">
+                                    Ticket Booking
+                                </li>
+                                <li class="breadcrumb-item active" aria-current="page">
+                                    Details
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 pl-lg-0">
+                        <div class="card card-details">
+                            <h1>Gunung Prau</h1>
+                            <p>
+                                Jawa Tengah
+                            </p>
+                            <div class="gallery">
+                                <div class="foto-container text-center">
+                                    <img class="foto" id="foto-default" src="frontend/images/praumountain2.jpg" xoriginal="frontend/images/praumountain2.jpg" />
+                                    <div>
+                                        <a href="frontend/images/header1.jpg"><img class="klik-foto" width="128" src="frontend/images/header1.jpg" xpreview="frontend/images/praumountain2.jpg" /></a>
+                                        <a href="frontend/images/praumountain2.jpg"><img class="klik-foto" width="128" src="frontend/images/praumountain2.jpg" xpreview="frontend/images/praumountain2.jpg" /></a>
+                                        <a href="frontend/images/praumountain2.jpg"><img class="klik-foto" width="128" src="frontend/images/praumountain2.jpg" xpreview="frontend/images/praumountain2.jpg" /></a>
+                                        <a href="frontend/images/praumountain2.jpg"><img class="klik-foto" width="128" src="frontend/images/praumountain2.jpg" xpreview="frontend/images/praumountain2.jpg" /></a>
+                                        <a href="frontend/images/praumountain2.jpg"><img class="klik-foto" width="128" src="frontend/images/praumountain2.jpg" xpreview="frontend/images/praumountain2.jpg" /></a>
+                                    </div>
+                                </div>
+                                <h2>Tentang Gunung</h2>
+                                <p>
+                                    Nusa Penida is an island southeast of Indonesia’s island Bali and a district of Klungkung Regency that includes the neighbouring small island of Nusa Lembongan. The Badung Strait separates the island and Bali. The interior of Nusa Penida is hilly with
+                                    a maximum altitude of 524 metres. It is drier than the nearby island of Bali.
+                                </p>
+                                <p>
+                                    Bali and a district of Klungkung Regency that includes the neighbouring small island of Nusa Lembongan. The Badung Strait separates the island and Bali.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pl-lg-0 pt-4">
+                        <div class="card card-details pt-0">
+                            <h2>Beli Tiket</h2>
+                            <table>
+                                <tr>
+                                    <th width="50%">Date of Departure</th>
+                                    <td width="50%" class="text-right">22 Aug, 2019</td>
+                                </tr>
+                                <tr>
+                                    <th width="50%">Duration</th>
+                                    <td width="50%" class="text-right">4D 3N</td>
+                                </tr>
+                                <tr>
+                                    <th width="50%">Type</th>
+                                    <td width="50%" class="text-right">Open Trip</td>
+                                </tr>
+                                <tr>
+                                    <th width="50%">Price</th>
+                                    <td width="50%" class="text-right">Rp 25.000 / orang</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="pesan-container">
+                            <a href="Checkout.html" class="btn btn-block btn-pesan-tiket mt-4 py-2">Pesan Tiket</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="section-footer mt-3 mb-3">
+        <div class="container pt-4 pb-4">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12 col-lg-3  ">
+                                    <h5>Hubungi Saya </h5>
+                                    <ul class="list-unstyled">
+                                        <li>Bogor</li>
+                                        <li>Indonesia</li>
+                                        <li>08xx- xxxx- xxx</li>
+                                        <li>zahranxxx@gmail.com</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row border-top justify-content-center align-items-center pt-4">
+                <div class="col-auto text-black-100 font-weight-bold">
+                    2023 Website Pemesanan Tiket Gunung Online • All rights reserved • Zahran Adnan Agustian
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="frontend/libraries/retina/retina.js"></script>
+    <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
